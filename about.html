@@ -18,8 +18,22 @@
         />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
+    <style>
+      .card{
+        width: 200px;
+        height: auto;
+      }
+      .container-fluid{
+        padding-left: 0%;
+        padding-right: 0%;
+      }
 
-    <body>
+      .card-img-top{
+        height: 200px;
+      }
+    </style>
+
+    <body class="container-fluid" style="background-image: url(assets/img/peakpx.jpg); background-size: cover;background-attachment: fixed;">
         <header>
             <nav class="navbar navbar-expand-lg bg-black" >
                 <div class="container-fluid" style="gap: 20px;">
@@ -53,12 +67,32 @@
                 </div>
               </nav>
         </header>
-        <main>
-            
+        <main >
+          <div class="container-fluid" style="color: aliceblue;">
+            <h2 class="text-center">
+              Sobre Venom
+            </h2>
+            <p class="text-center" style="height:500px; overflow: auto;">
+              "Venom" es un personaje emblemático de Marvel Comics que debutó en 1988. <br> Es un simbionte alienígena, una forma de vida parasitaria, <br> que requiere un huésped humano para sobrevivir y, en su forma más conocida,<br> se une con Eddie Brock, un exreportero <br> que alberga un profundo resentimiento hacia Spider-Man. Juntos, como Venom, <br> poseen una amalgama de los poderes de Spider-Man, <br> incluida una fuerza sobrehumana, la capacidad de trepar paredes y generar telarañas, <br> pero con una actitud más violenta y una apariencia más intimidante. <br>
+La relación entre Venom y Spider-Man es fundamental en la historia del personaje. <br> Eddie Brock se convierte en Venom debido a su animosidad hacia Spider-Man, quien inadvertidamente arruinó <br> su carrera como periodista al exponer sus noticias falsas. Esto lleva a una rivalidad continua entre Venom y Spider-Man, <br> con Venom buscando venganza contra el héroe arácnido.
+A lo largo de los años, Venom ha tenido múltiples iteraciones y huéspedes, <br> incluidos personajes como Mac Gargan (también conocido como el Escorpión) y Flash Thompson, <br> quien se convierte en un agente del gobierno conocido como Agente Venom. <br> La dualidad entre el bien y el mal es un tema recurrente en las historias de Venom, <br> ya que lucha con su propia moralidad y sus deseos de redención. <br>
+Venom ha protagonizado numerosos cómics en solitario y ha sido un personaje destacado en eventos importantes de Marvel. <br> Además, ha aparecido en adaptaciones cinematográficas, series animadas y videojuegos,<br> lo que lo ha convertido en uno de los personajes más populares y reconocibles del universo Marvel.
+            </p>
+          </div>
+
+          <div class="card-group ms-5 me-5 d-flex justify-content-center" style="flex-wrap: wrap; gap: 10px; justify-content: center;">
+            <div class="card">
+              <img src="assets/img/F5cQRoGWUAAflii_1697848360669_1697848437013.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="assets/img/https___hypebeast.com_image_2018_08_todd-mcfarlane-venom-movie-design-review-tw.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="assets/img/Venom-Dan-Mora-1000x700.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
         </main>
-
-
-        <footer class="bg-secondary text-center">
+        <footer class="bg-secondary text-center mt-5">
              
           <div class="container p-4">
             
@@ -132,7 +166,7 @@
         
           
           <div class="text-center p-3" style="background-color: black">
-            <p style="color: white;">© 2024 Copyright</p>
+            <p style="color: white;">© 2024 <br>Gonzalez - Stöck - Tiñuk</p>
           </div>
           
         </footer>
