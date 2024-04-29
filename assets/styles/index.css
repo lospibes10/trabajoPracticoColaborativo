@@ -1,0 +1,10 @@
+.carousel-item img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container-fluid img {
+width: 100px;
+}
