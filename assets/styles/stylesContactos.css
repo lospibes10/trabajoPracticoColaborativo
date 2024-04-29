@@ -8,4 +8,13 @@ main{
 h2{
     color: white;
 }
+.form-control{
+    width: 400px;
+    }
 
+.divForm{
+    background: #39393902;
+    backdrop-filter: blur(1rem);
+    background-clip: border-box;
+
+    }
