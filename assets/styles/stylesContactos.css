@@ -1,6 +1,11 @@
 main{
-    background: url(../img/fondocontacto.webp);
+    background: url(../img/fondoContacto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+h2{
+    color: white;
+}
+
